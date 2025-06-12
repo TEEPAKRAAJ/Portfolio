@@ -70,7 +70,7 @@ export default function Hero() {
               <Image
                 src={MainImage}
                 alt="Profile"
-                className="h-130 w-130 object-cover hover:scale-105 transition-transform duration-300 ease-in-out "
+                className="object-cover hover:scale-105 transition-transform duration-300 ease-in-out "
               
               />
             </div>
