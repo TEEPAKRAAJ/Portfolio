@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import MainImage from '../images/Main_image.png'
 import { ReactTyped } from 'react-typed'
-import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from 'react-icons/fa'
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 
 export default function Hero() {
   return (
@@ -13,12 +13,12 @@ export default function Hero() {
       <div className=" mx-auto flex flex-col md:flex-row items-center justify-center px-8 py-16">
         {/* Left: Text */}
         <div className="flex-1">
-          <h1 className="text-white font-semibold text-2xl md:text-3xl mb-2" style={{ fontFamily: 'Georgia' }}>Hi, I'm</h1>
+          <h1 className="text-white font-semibold text-2xl md:text-3xl mb-2" style={{ fontFamily: 'Georgia' }}>Hi, I&apos;m</h1>
           <h1 className="text-5xl md:text-6xl font-extrabold mb-2 text-white" style={{ fontFamily: 'Georgia' }}>
             <span className="text-cyan-300">G Teepakraaj</span>
           </h1>
           <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-white flex items-center gap-2" >
-            And I'm a&nbsp;
+            And I&apos;m a&nbsp;
             <span className="font-thin">
               <ReactTyped
                 strings={[
