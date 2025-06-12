@@ -46,7 +46,7 @@ export default function Contact() {
         'Kx_BS6dcJZ6K9G3Od' // Replace with your EmailJS User ID
       )
       .then(
-        (result) => {
+        () => {
           alert('Your message has been sent successfully!');
           setFormData({
             name: '',
@@ -55,7 +55,7 @@ export default function Contact() {
             message: '',
           });
         },
-        (error) => {
+        () => {
           alert('Failed to send the message. Please try again later.');
         }
       );
