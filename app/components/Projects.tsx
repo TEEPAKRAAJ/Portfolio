@@ -49,7 +49,7 @@ const projects = [
       <Image src={image3} alt="TIC TAC TOE Game" className="h-60 w-100 mx-auto mb-auto " />
     ),
     gradient: 'from-blue-700 via-blue-500 to-cyan-500',
-    github:'https://github.com/UnAuthDevX/BayMax-'
+    github:'https://github.com/TEEPAKRAAJ/TIC-TAC-TOE'
   }
 ]
 
@@ -91,7 +91,7 @@ export default function Projects() {
                 </div>
               </SwiperSlide>
             ))}
-            <span className="flex justify-center"><p className="py-6 text-gray-700 text-2xl">sweep card to see next</p></span>
+            <span className="flex justify-center mr-30"><p className="py-6 text-gray-700 text-2xl">sweep card to see next</p></span>
           </Swiper>
           {/* Active card details */}
           <div className="w-full max-w-xl">
