@@ -3,13 +3,13 @@ import Image from "next/image"
 import About_image from "../images/About_image.jpg"
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white ">
+    <section id="about" className="py-28 bg-white ">
       <div className="w-9/10 mx-auto flex flex-col md:flex-row items-center px-8" style={{ fontFamily: 'Georgia' }}>
         {/* Left: Image Card */}
         <div className="flex-1 flex justify-center mb-8 md:mb-0">
           <div className="">
             <div className=" rounded-lg   flex items-center justify-center z-10">
-              <Image src={About_image} alt="Profile Image" className="rounded-lg object-cover hover:scale-105 transition-transform duration-300 ease-in-out " />
+              <Image src={About_image} alt="Profile Image" className="rounded-lg object-cover hover:scale-105 hover:shadow-3xl transition-transform duration-300 ease-in-out " />
             
             </div>
             <span className="absolute -bottom-3 left-16 w-4 h-4 rounded-full bg-[#d3d7a3]"></span>

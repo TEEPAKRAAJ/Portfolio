@@ -10,3 +10,14 @@
 html {
   scroll-behavior: smooth;
 }
+.swiper-slide {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.swiper-cards {
+  background: transparent !important;
+}
+
+.swiper-slide-shadow {
+  display: none !important;
+}

@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-screen w-screen flex items-center justify-center"
+      className="h-screen w-screen my-16 flex items-center justify-center"
       style={{
       backgroundImage: `url(${background_image.src})`,
       backgroundSize: 'cover',
@@ -84,7 +84,7 @@ Currently pursuing<span className='text-cyan-300'> B.Tech in Computer Science an
           <Image
           src={MainImage}
           alt="Profile"
-          className="object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="object-cover hover:scale-105 transition duration-300 ease-in-out"
           />
         </div>
         </div>

@@ -62,7 +62,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-white" style={{ fontFamily: 'Georgia' }}>
+    <section id="contact" className="py-24 bg-white" style={{ fontFamily: 'Georgia' }}>
       <div className="w-9/10 mx-auto px-4">
         {/* Heading */}
         <h2 className="text-4xl font-extrabold text-center mb-2">Get In Touch</h2>
@@ -116,7 +116,7 @@ export default function Contact() {
                   href="https://www.linkedin.com/in/teepakraaj/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-blue-200 text-blue-600 rounded-full p-2"
+                  className="bg-white hover:scale-150 text-blue-600 rounded-full p-2"
                 >
                   <FaLinkedin size={20} />
                 </a>
@@ -124,7 +124,7 @@ export default function Contact() {
                   href="https://github.com/TEEPAKRAAJ"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-blue-200 text-blue-600 rounded-full p-2"
+                  className="bg-white hover:scale-150 text-blue-600 rounded-full p-2"
                 >
                   <FaGithub size={20} />
                 </a>
@@ -132,7 +132,7 @@ export default function Contact() {
                   href="https://www.instagram.com/teepakraaj_06/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-blue-200 text-blue-600 rounded-full p-2"
+                  className="bg-white hover:scale-150 text-blue-600 rounded-full p-2"
                 >
                   <FaInstagram size={20} />
                 </a>

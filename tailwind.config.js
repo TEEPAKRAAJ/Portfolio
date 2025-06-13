@@ -9,10 +9,16 @@ module.exports = {
       fontFamily: {
         times: ['Times New Roman', 'Times', 'serif',' Georgia','Cambria'],
       },
+      
     },
   },
+  
   content: [
     './app/**/*.{js,ts,jsx,tsx,pdf}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-}
+  plugins: [],
+  corePlugins: {
+    preflight: true,
+  }
+};

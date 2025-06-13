@@ -10,13 +10,13 @@ export default function Footer() {
           <div className="text-3xl font-bold text-blue-500 mb-2">G Teepakraaj</div>
           <div className="mb-4">Creating a Dynamic and Interactive Portfolio </div>
           <div className="flex gap-4 mb-4 md:mb-0">
-            <a href="https://www.linkedin.com/in/teepakraaj/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+            <a href="https://www.linkedin.com/in/teepakraaj/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:scale-150">
               <FaLinkedin size={20} />
             </a>
-            <a href="https://github.com/TEEPAKRAAJ" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+            <a href="https://github.com/TEEPAKRAAJ" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:scale-150">
               <FaGithub size={20} />
             </a>
-            <a href="https://www.instagram.com/teepakraaj_06/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
+            <a href="https://www.instagram.com/teepakraaj_06/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 hover:scale-150">
               <FaInstagram size={20} />
             </a>
           </div>
