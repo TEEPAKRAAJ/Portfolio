@@ -3,7 +3,7 @@ import Image from "next/image"
 import About_image from "../images/About_image.jpg"
 export default function About() {
   return (
-    <section id="about" className="py-28 bg-white ">
+    <section id="about" className="py-30 bg-white ">
       <div className="w-9/10 mx-auto flex flex-col md:flex-row items-center px-8" style={{ fontFamily: 'Georgia' }}>
         {/* Left: Image Card */}
         <div className="flex-1 flex justify-center mb-8 md:mb-0">

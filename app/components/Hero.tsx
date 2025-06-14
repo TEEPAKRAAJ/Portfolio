@@ -84,7 +84,7 @@ Currently pursuing<span className='text-cyan-300'> B.Tech in Computer Science an
           <Image
           src={MainImage}
           alt="Profile"
-          className="object-cover hover:scale-105 transition duration-300 ease-in-out"
+          className="rounded-full  drop-shadow-2xl border-8 border-cyan-300 shadow-lg shadow-cyan-300 object-cover hover:scale-105 transition duration-300 ease-in-out"
           />
         </div>
         </div>
