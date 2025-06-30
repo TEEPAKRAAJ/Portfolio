@@ -4,6 +4,7 @@ import image from '../images/BayMax.jpg'
 import image1 from '../images/LiveCount.jpeg'
 import image2 from '../images/stlToLayers.jpg'
 import image3 from '../images/TIC_TAC_TOE.png'
+import image4 from '../images/Retail_shop_management.png'
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from 'swiper/modules';
@@ -44,12 +45,22 @@ const projects = [
   {
     title: 'TIC TAC TOE Game',
     desc: 'Designed and developed as a 12th-grade project, this classic Tic Tac Toe game uses Python and Tkinter for the graphical interface. Features Player vs Computer mode with fully handwritten game logic, including turn management and win/draw detection. Built without external libraries like Pygame, focusing on logic clarity and user-friendly design.',
-    tags: ['Pythonn', 'TKinter'],
+    tags: ['Python', 'TKinter'],
     icon: (
       <Image src={image3} alt="TIC TAC TOE Game" className="h-60 w-100 mx-auto mb-auto " />
     ),
     gradient: 'from-blue-700 via-blue-500 to-cyan-500',
     github:'https://github.com/TEEPAKRAAJ/TIC-TAC-TOE'
+  }
+  {
+    title: 'Retail Shop Accounting Software',
+    desc: 'Developed a Django-based web application to help small retail shops manage daily sales, customer payments, and generate monthly/yearly financial reports. Utilized Django’s built-in SQLite database for data storage and implemented features like user authentication, sale entry, and account tracking. The interface was styled using Tailwind CSS and deployed on Render, ensuring accessibility and ease of use for shop owners.',
+    tags: ['Pythonn', 'Django', 'SQLite', 'Tailwind CSS','Render'],
+    icon: (
+      <Image src={image4} alt="Retail Shop Accounting Software" className="h-60 w-100 mx-auto mb-auto " />
+    ),
+    gradient: 'from-blue-700 via-blue-500 to-cyan-500',
+    github:'https://github.com/TEEPAKRAAJ/retail-shop-accounting-software'
   }
 ]
 
