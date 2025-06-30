@@ -55,7 +55,7 @@ const projects = [
   {
     title: 'Retail Shop Accounting Software',
     desc: 'Developed a Django-based web application to help small retail shops manage daily sales, customer payments, and generate monthly/yearly financial reports. Utilized Django’s built-in SQLite database for data storage and implemented features like user authentication, sale entry, and account tracking. The interface was styled using Tailwind CSS and deployed on Render, ensuring accessibility and ease of use for shop owners.',
-    tags: ['Pythonn', 'Django', 'SQLite', 'Tailwind CSS','Render'],
+    tags: ['Python', 'Django', 'SQLite', 'Tailwind CSS','Render'],
     icon: (
       <Image src={image4} alt="Retail Shop Accounting Software" className="h-60 w-100 mx-auto mb-auto " />
     ),
