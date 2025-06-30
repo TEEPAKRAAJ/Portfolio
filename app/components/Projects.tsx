@@ -61,7 +61,7 @@ const projects = [
     ),
     gradient: 'from-blue-700 via-blue-500 to-cyan-500',
     github:'https://github.com/TEEPAKRAAJ/retail-shop-accounting-software'
-  }
+  },
 ]
 
 
