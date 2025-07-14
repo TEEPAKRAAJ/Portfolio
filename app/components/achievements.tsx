@@ -129,7 +129,7 @@ const certificates = [
         image: "/certificate/coursera_tailwind_css.jpg"
     },
     {
-        title: "Tailwind CSS Practice Projects",
+        title: "Tailwind CSS Practice Projects        git push --force",
         desc: "Completed a Tailwind CSS project, showcasing skills in building responsive and modern web interfaces using Tailwind CSS framework.",
         image: "/certificate/tailwind_css_project.jpg"
     },
