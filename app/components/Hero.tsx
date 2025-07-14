@@ -25,7 +25,7 @@ export default function Hero() {
           <h1 className="text-cyan-200 text-5xl md:text-6xl lg:text-7xl font-extrabold font-serif mb-4">G Teepakraaj</h1>
 
           <h3 className="text-xl md:text-2xl lg:text-3xl text-white font-semibold flex justify-center lg:justify-start items-center gap-2 mb-4">
-            And I'm a
+            And I&apos;m a
             <span className="text-cyan-300 font-light">
               <ReactTyped
                 strings={[
