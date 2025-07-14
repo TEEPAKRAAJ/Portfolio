@@ -1,6 +1,5 @@
 'use client'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
-import Link from 'next/link'
 import Image from "next/image"
 import image from '../images/BayMax.jpg'
 import image1 from '../images/LiveCount.jpeg'
