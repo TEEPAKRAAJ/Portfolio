@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image"
-
+import AnimatedSection from './AnimatedSection'
+import { useTheme } from '../contexts/ThemeContext'
 
 const certificates = [
     {
@@ -34,8 +35,8 @@ const certificates = [
         image: "/certificate/sparkathon.jpg"
     },
     {
-        title: "GDG’S HACKATONIC",
-        desc: "Participated in GDG’s HACKATONIC conducted by PSG College of Technology, demonstrating an idea on computer vision used for agriculture.",
+        title: "GDG'S HACKATONIC",
+        desc: "Participated in GDG's HACKATONIC conducted by PSG College of Technology, demonstrating an idea on computer vision used for agriculture.",
         image: "/certificate/psg_hackathon.jpg"
     },
     {
@@ -129,7 +130,7 @@ const certificates = [
         image: "/certificate/coursera_tailwind_css.jpg"
     },
     {
-        title: "Tailwind CSS Practice Projects        git push --force",
+        title: "Tailwind CSS Practice Projects",
         desc: "Completed a Tailwind CSS project, showcasing skills in building responsive and modern web interfaces using Tailwind CSS framework.",
         image: "/certificate/tailwind_css_project.jpg"
     },
@@ -143,35 +144,47 @@ const certificates = [
         desc: "Completed the Learn CSS Flexbox course from Coursera offered by Scrimba, focusing on CSS Flexbox layout techniques.",
         image: "/certificate/coursera_flex_box.jpg"
     },
-
-
-
-
 ];
 
 export default function Achievements() {
+  const { theme } = useTheme();
+  
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 rounded-3xl">
       {certificates.map((cert, idx) => (
-        <div
-          key={idx}
-          className="relative rounded-2xl p-6 bg-white flex flex-col h-full transition-transform duration-300 hover:scale-105 shadow-lg"
-          style={{ fontFamily: 'Georgia' }}
+        <AnimatedSection 
+          key={idx} 
+          direction="up" 
+          delay={idx * 100} 
+          className="w-full"
         >
-          <div className="overflow-hidden rounded-lg mb-4">
-  <a href={cert.image} target="_blank" rel="noopener noreferrer">
-    <Image
-      src={cert.image}
-      alt={cert.title}
-      width={400}
-      height={250}
-      className="object-cover rounded-lg w-full h-48 cursor-pointer"
-    />
-  </a>
-</div>
-          <h3 className="text-xl font-bold mb-2">{cert.title}</h3>
-          <p className="text-gray-700">{cert.desc}</p>
-        </div>
+          <div
+            className={`relative rounded-2xl p-6 flex flex-col h-full transition-all duration-500 hover:scale-105 hover:shadow-2xl ${
+              theme === 'dark'
+                ? 'bg-gray-800 border border-gray-700 shadow-lg hover:shadow-blue-500/20'
+                : 'bg-white border border-gray-200 shadow-lg hover:shadow-blue-500/20'
+            }`}
+            style={{ fontFamily: 'Georgia' }}
+          >
+            <div className="overflow-hidden rounded-lg mb-4">
+              <a href={cert.image} target="_blank" rel="noopener noreferrer">
+                <Image
+                  src={cert.image}
+                  alt={cert.title}
+                  width={400}
+                  height={250}
+                  className="object-cover rounded-lg w-full h-48 cursor-pointer hover:scale-105 transition-transform duration-300"
+                />
+              </a>
+            </div>
+            <h3 className={`text-xl font-bold mb-2 transition-colors duration-300 ${
+              theme === 'dark' ? 'text-white' : 'text-gray-800'
+            }`}>{cert.title}</h3>
+            <p className={`transition-colors duration-300 ${
+              theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
+            }`}>{cert.desc}</p>
+          </div>
+        </AnimatedSection>
       ))}
     </div>
   );
