@@ -45,12 +45,12 @@ export default function About() {
             <p className={`leading-relaxed text-lg transition-colors duration-300 ${
               theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              I'm a tech enthusiast and Computer Science student with a passion for solving problems and building creative digital solutions. I enjoy working across many areas of technology, including data analysis, machine learning, web development, AI, software engineering, and UI/UX design.
+              I&apos;m a tech enthusiast and Computer Science student with a passion for solving problems and building creative digital solutions. I enjoy working across many areas of technology, including data analysis, machine learning, web development, AI, software engineering, and UI/UX design.
             </p>
             <p className={`leading-relaxed text-lg transition-colors duration-300 ${
               theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
             }`}>
-              I have hands-on experience from internships and hackathons, where I've built projects like computer vision systems for real-time counting, AI tools for agriculture, and user-friendly web apps. I love learning new things, working with teams, and turning ideas into real products that help people.
+              I have hands-on experience from internships and hackathons, where I&apos;ve built projects like computer vision systems for real-time counting, AI tools for agriculture, and user-friendly web apps. I love learning new things, working with teams, and turning ideas into real products that help people.
             </p>
           </div>
 

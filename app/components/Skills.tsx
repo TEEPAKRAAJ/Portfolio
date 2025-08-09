@@ -21,7 +21,7 @@ export default function Skills() {
           <p className={`mb-10 max-w-2xl mx-auto text-center text-lg italic transition-colors duration-300 ${
             theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
           }`}>
-            I've developed expertise in various areas, allowing me to deliver comprehensive solutions for diverse projects.
+            I&apos;ve developed expertise in various areas, allowing me to deliver comprehensive solutions for diverse projects.
           </p>
           
           <div className="flex flex-col items-center gap-10">

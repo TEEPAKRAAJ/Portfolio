@@ -32,7 +32,7 @@ export default function Showcase() {
         <p className={`mb-10 max-w-2xl mx-auto text-center text-lg italic transition-colors duration-300 ${
           theme === 'dark' ? 'text-gray-300' : 'text-gray-600'
         }`}>
-          "Creativity is intelligence having fun."
+          Creativity is intelligence having fun.
         </p>
       </AnimatedSection>
 
