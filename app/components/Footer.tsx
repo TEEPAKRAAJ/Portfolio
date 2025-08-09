@@ -62,7 +62,9 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <AnimatedSection direction="up" delay={600} className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent mb-8"></AnimatedSection>
+        <AnimatedSection direction="up" delay={600}>
+  <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-600 to-transparent mb-8"></div>
+</AnimatedSection>
 
         {/* Copyright Section */}
         <AnimatedSection direction="up" delay={800} className="text-center">
